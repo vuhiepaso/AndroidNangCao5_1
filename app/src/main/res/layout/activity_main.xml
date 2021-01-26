@@ -6,8 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTex"
+        android:paddingLeft="20dp"
+        android:hint="Nhập Link"
+        android:text="https://vtc.vn/rss/kinh-te.rss"
+        android:textColor="#CC403F3F"/>
     <Button
+        android:onClick="Load"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +25,7 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="10dp"/>
 
 
 
